@@ -1,13 +1,11 @@
 name: first_github_action
 
-on: push
+on:
+push:
 
 jobs:
 srini_first_job:
 runs-on: ubuntu-latest
-
 steps:
-   - name: message
-    run: echo "WELCOME TO GITHUB ACTIONS"
-
-
+- name: message
+run: echo "WELCOME TO GITHUB ACTIONS"
